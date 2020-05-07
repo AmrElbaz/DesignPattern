@@ -1,4 +1,9 @@
 package designPattern.creational.abstractfactory.colorfamily.impl;
 
-public class RedImpl {
+import designPattern.creational.abstractfactory.colorfamily.IColor;
+
+public class RedImpl implements IColor {
+    public String getColor() {
+        return "RED";
+    }
 }

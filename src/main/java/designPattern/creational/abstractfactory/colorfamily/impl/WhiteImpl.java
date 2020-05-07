@@ -1,4 +1,9 @@
 package designPattern.creational.abstractfactory.colorfamily.impl;
 
-public class WhiteImpl {
+import designPattern.creational.abstractfactory.colorfamily.IColor;
+
+public class WhiteImpl implements IColor {
+    public String getColor() {
+        return "Zamalek ♥♥";
+    }
 }
