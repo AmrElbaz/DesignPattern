@@ -7,7 +7,7 @@ public class RhombusAdapter extends Rhombus implements Shape {
     public RhombusAdapter() {
         super();
     }
-    @Override
+      @Override
     public void draw() {
         this.drawShape();
     }

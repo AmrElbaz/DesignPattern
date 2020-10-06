@@ -1,0 +1,15 @@
+Behavioral design patterns are concerned with
+the interaction and responsibility of objects.
+
+interaction between the objects should be in such a way that they can easily talk to each other and still should be loosely coupled.
+
+Strategy Pattern
+    A Strategy Pattern says that "defines a family of functionality, encapsulate each one, and make them interchangeable".
+    The Strategy Pattern is also known as Policy.
+
+Observer pattern (RX)
+    is used when there is one-to-many relationship between objects such as if one object is modified,
+    its dependent objects are to be notified automatically
+
+Template method design pattern
+    is to define an algorithm as skeleton of operations and leave the details to be implemented by the child classes.

@@ -6,7 +6,8 @@ public class Main {
        *
        * notes
        *    builder design patter is preferred when u want to make ur class immutable
-       *
+       *    constructor private
+       *    no setters
        * */
         User user = new User.UserBuilder("Amr", "Elbaz").build();
         System.out.println(user);
